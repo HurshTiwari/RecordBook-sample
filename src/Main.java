@@ -18,11 +18,11 @@ public class Main {
 		System.out.println(creditHelperMessage);
 		System.out.println(displayTotalMessage);
 		System.out.println(exitMessage);
-		String s = in.next();
+		String s = in.nextLine();
 		Account ac = new Account();
 		while(!s.equalsIgnoreCase("EXIT")){
 			accountProcess(s,ac);
-			s=in.next();
+			s=in.nextLine();
 		}
 		System.out.print(finalAmount);
 		ac.displayTotal();
