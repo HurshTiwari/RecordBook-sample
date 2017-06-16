@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Account {
     private ArrayList<Integer> debit;
 	private ArrayList<Integer> credit;
-	int total;
+	private int total;
 	Account(){
 		debit = new ArrayList<Integer>();
 		credit = new ArrayList<Integer>();
